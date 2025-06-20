@@ -24,3 +24,8 @@ def my_app():
     df.to_csv(CSV_PATH, mode="a", header=header, index=False)
 
     return jsonify({"category": category, "response": response})
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
