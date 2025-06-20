@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 import os
 
-CSV_PATH = "data/questions.csv"
+CSV_PATH = "questions.csv"
 
 app = Flask(__name__)
 @app.route("/webhook", methods=["POST"])
