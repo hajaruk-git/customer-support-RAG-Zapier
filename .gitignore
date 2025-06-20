@@ -1,0 +1,15 @@
+.env
+.env.bak/
+
+venv/
+
+
+__pycache__/
+*.pyc
+
+
+streamlit/
+quarterly_analysis/
+
+
+.DS_Store
